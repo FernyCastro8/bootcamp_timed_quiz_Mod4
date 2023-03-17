@@ -55,6 +55,10 @@ body {
   
   .card-display #question-display {
     margin-bottom: 15px;
+    padding: 8px;
+    background-color: lightgray;
+    border-radius: 10px;
+    opacity: .9;
   }
   
   .card-display #timer-display {

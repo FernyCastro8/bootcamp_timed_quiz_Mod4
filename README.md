@@ -16,8 +16,9 @@ The user is given multiple-choice answers to select within 5 seconds of the star
 
 After selecting ‘right or wrong’ answers, the user is to click the next button to be prompted with the following question.
 
-Completing the quiz, the user is to be asked with the choice of whether to restart the quiz or not.
+Completing the quiz, the user is to be asked with the choice of whether to restart the quiz.
 
+If true, the quiz restarts. If false, the app is to promt a goodbuye message.
 
 
 ---------------------------------------------------------------------
