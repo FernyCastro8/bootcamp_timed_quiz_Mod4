@@ -1,0 +1,89 @@
+/*** RESETS ***/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+  }
+  
+  /*** GLOBAL CLASSES ***/
+  .text-center {
+    text-align: center;
+  }
+  
+  .hide {
+    display: none;
+  }
+  
+  /*** CUSTOM STYLES ***/
+
+body {
+    background-color: rgba(250, 235, 215, 0.643);
+}
+
+  .timed-quiz {
+    margin: 35px 0 45px 60px;
+  }
+
+  .main-header {
+    margin: 25px 0 45px;
+  }
+  
+  /* Start Button */
+  .card-wrap #start {
+    padding: 10px 0;
+    min-width: 250px;
+    font-size: 1rem;
+    background-color: #0165d087;
+    border: none;
+    border-radius: 10px;
+    color: #fff;
+    cursor: pointer;
+  }
+
+  .card-display #start {
+    background-color: rgba(87, 165, 42, 0.489);
+    opacity: 1;
+  }
+  
+  .card-display {
+    padding: 25px;
+    border: 3px solid #aaaaaab0;
+    max-width: 500px;
+    margin: 0 auto;
+  }
+  
+  .card-display #question-display {
+    margin-bottom: 15px;
+  }
+  
+  .card-display #timer-display {
+    font-size: 2rem;
+  }
+  
+  .card-display #answer-display {
+    background-color: rgba(165, 42, 42, 0.353);
+    border-radius: 10px;
+    padding: 10px;
+    color: #fff;
+    margin-bottom: 20px;
+  }
+  
+  .card-display #next {
+    padding: 8px 35px;
+    font-size: .9rem;
+    background-color: #999;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  
+  .card-display #next:hover {
+    background-color: rgba(87, 165, 42, 0.489);
+    opacity: 1;
+  }
+  
+  
+  
+  /* RESPONSIVE STYLES */
