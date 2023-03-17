@@ -38,6 +38,7 @@ function showAnswer() {
   nextBtn.classList.remove('hide');
   answerDisplay.classList.remove('hide');
 
+
   currentCardIndex++;
 
   // If the currentCardIndex is equal to the cards array
@@ -76,6 +77,18 @@ function startTimer() {
   }, 1000);
 }
 
+function checkCorrectAns(event) {
+  var userClickedValue = event.target.innerText
+  if (userClickedValue === cards[currentCardIndex].answer) {
+    alert("correct")
+
+  }
+  else {
+    alert('wrong')
+  }
+  //
+}
+
 // Create a function that grabs the current card object and displays
 // the question to the window
 function displayCard() {
@@ -85,6 +98,22 @@ function displayCard() {
   cardDisplay.classList.remove('hide');
   
   questionDisplay.innerText = card.question;
+  document.getElementById('question-options').innerHTML=""
+  
+  // display options
+  for (let index = 0; index < card.options.length; index++) {
+    // create a button
+    var optionBtn = document.createElement('button')
+    // add text to button
+    optionBtn.innerText = card.options[index]
+
+    optionBtn.addEventListener('click', checkCorrectAns)
+
+    // add to html
+    document.getElementById('question-options').appendChild(optionBtn)
+    
+  }
+
 
   answerDisplay.classList.add('hide');
   nextBtn.classList.add('hide');  

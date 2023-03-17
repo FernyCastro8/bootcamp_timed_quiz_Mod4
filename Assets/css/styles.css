@@ -3,7 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: sans-serif;
+    font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", sans-serif;
   }
   
   /*** GLOBAL CLASSES ***/
@@ -56,7 +56,7 @@ body {
   .card-display #question-display {
     margin-bottom: 15px;
     padding: 8px;
-    background-color: lightgray;
+    background-color: rgba(201, 196, 196, 0.534);
     border-radius: 10px;
     opacity: .9;
   }
@@ -84,10 +84,24 @@ body {
   }
   
   .card-display #next:hover {
-    background-color: rgba(87, 165, 42, 0.489);
+    background-color: rgba(87, 165, 42, 0.231);
     opacity: 1;
   }
   
+  #question-options button {
+    margin: 5px;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: #aaaaaab0;
+    color: #ffffff;
+    margin-bottom: 20px;
+  }
   
-  
+  #question-options button:hover {
+    background-color: rgba(87, 165, 42, 0.231);
+    opacity: 1;
+  }
+
+
   /* RESPONSIVE STYLES */
