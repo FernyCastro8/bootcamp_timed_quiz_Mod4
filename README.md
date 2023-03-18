@@ -26,8 +26,13 @@ If true, the quiz restarts. If false, the app is to promt a goodbuye message.
 ## Websites 
 
 - Github
-
+https://github.com/FernyCastro8/timed_quiz_bootcamp_Mod4.git
 
 - URL
+https://fernycastro8.github.io/timed_quiz_bootcamp_Mod4/
+
+
+- [Screenshot]
+
 
 
