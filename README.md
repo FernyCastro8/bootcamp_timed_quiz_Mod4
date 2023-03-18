@@ -32,7 +32,6 @@ https://github.com/FernyCastro8/timed_quiz_bootcamp_Mod4.git
 https://fernycastro8.github.io/timed_quiz_bootcamp_Mod4/
 
 
-- [Screenshot]
-
+![Screen Shot 2023-03-17 at 10 24 00 PM](https://user-images.githubusercontent.com/124219457/226078567-0e4405ac-4df1-4b9f-b14c-3b787db53bf7.png)
 
 
